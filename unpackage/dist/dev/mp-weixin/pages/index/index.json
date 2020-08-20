@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "moods",
+  "usingComponents": {
+    "moods": "/components/list",
+    "fixed-button": "/components/fixedButton",
+    "add-model": "/components/addModel",
+    "calendar-model": "/components/calendar"
+  }
+}

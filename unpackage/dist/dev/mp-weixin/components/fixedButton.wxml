@@ -1,0 +1,1 @@
+<view class="fixed-button data-v-2061aa4a"><image class="image data-v-2061aa4a" src="../static/images/add.png" mode data-event-opts="{{[['tap',[['showAddModel',['$event']]]]]}}" catchtap="__e"></image><image class="image data-v-2061aa4a" src="../static/images/calendar.png" mode data-event-opts="{{[['tap',[['showCalender',['$event']]]]]}}" catchtap="__e"></image></view>

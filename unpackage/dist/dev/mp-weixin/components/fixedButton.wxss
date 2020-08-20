@@ -1,0 +1,17 @@
+
+.fixed-button.data-v-2061aa4a {
+	position: fixed;
+	right: 10px;
+	bottom: 10%;
+	z-index: 99;
+}
+.fixed-button .image.data-v-2061aa4a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 30px #faf0af;
+	background-color: transparent;
+}
+

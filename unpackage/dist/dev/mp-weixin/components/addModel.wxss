@@ -1,0 +1,83 @@
+
+.add-model.data-v-2000ff43 {
+	position: fixed;
+	left: 50%;
+	top:10%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	border-radius: 20px;
+	width: 80%;
+	min-height: 200px;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px #C0C0C0;
+	padding: 20px;
+	z-index: 99;
+	text-align: center;
+}
+/* emoji */
+.add-model .emoji-images.data-v-2000ff43 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.add-model .emoji-images .emoji.data-v-2000ff43 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	opacity: 0.6;
+	margin: 0 2%;
+}
+.add-model .emoji-images .emoji.active.data-v-2000ff43 {
+	opacity: 1;
+}
+/* tags */
+.add-model .tags.data-v-2000ff43 {
+	margin: 20px 0;
+}
+.add-model .tags .tag-input.data-v-2000ff43 {
+	border: 1px pink solid;
+	border-radius: 10px;
+	font-size:12px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.add-model .tags .tag.data-v-2000ff43 {
+	display: inline-block;
+	font-size: 12px;
+	border-radius:0 10px 10px 0;
+	border:1px #fff591 solid;
+	padding:0 4px;
+	color: #999;
+	margin:0 5px 0 0;
+}
+.add-model .tags .tag .delete-btn.data-v-2000ff43 {
+	color: pink;
+	margin-left: 10px;
+	padding-right: 5px;
+}
+/* mood */
+.add-model .mood-input .textarea.data-v-2000ff43 {
+	border: 1px #C0C0C0 solid;
+	border-radius: 10px;
+	margin: 10px 0;
+	padding:8px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+}
+/* submit */
+.add-model .submit-btn.data-v-2000ff43 {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px #ffa931 solid;
+	border-radius: 10px;
+	box-shadow: 0 20px 50px 2px #ff8c1a inset; 
+	color: #fff;
+	font-weight: bold;
+	line-height: 46px;
+	height: 46px;
+}
+
