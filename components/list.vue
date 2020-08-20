@@ -1,6 +1,7 @@
 <template>
 <view class="moods">
-		<view v-for="(mood, index) in moods" :key="index" :style="{backgroundColor: emojiColor[mood.emoji],color: mood.emoji === 'peace' || mood.emoji === 'sick'? '#333' : '#fff'}"
+		<view 
+			v-for="(mood, index) in moods" :key="index" :style="{backgroundColor: emojiColor[mood.emoji],color: mood.emoji === 'peace' || mood.emoji === 'sick'? '#333' : '#fff'}"
 		 class="row">
 			<text class="day">{{ mood.day < 10 ? `0${mood.day}` : mood.day }}</text>
 			<image :src="emojiImage[mood.emoji]" mode="" class="emoji"></image>
@@ -11,9 +12,9 @@
 				</text>
 			</text>
 		</view>
-		<view v-if="moods.length === 0" class="none-mood">
+		<view v-if="moods.length === 0" class="nothing">
 			<image src="../static/images/nothing.png" mode="" class="nothing-bg"></image>
-			<text class="nothing-hint">please recode your mood now</text>
+			<text class="nothing-hint">please record your mood now</text>
 		</view>
 	</view>
 	</template>
@@ -113,20 +114,19 @@
 			margin-left: 10px;
 		}
 
-		.moods .none-mood {
-			position: absolute;
-			left: 50%;
-			top: 20%;
+		.moods .nothing {
 			text-align: center;
+			padding-top: 20%;
 		}
 
 		.moods .nothing .nothing-bg {
 			display: inline-block;
-			width: 50%;
+			width: 200px;
+			height: 200px;
 			margin-bottom: 20px;
 		}
 
-		.moods .none-mood .nothing-hint {
+		.moods .nothing .nothing-hint {
 			color: #999999;
 			font-size: 14px;
 		}

@@ -5,7 +5,7 @@
 			:scroll-y="true"
 			:enable-back-to-top="true"
 			class="content">
-			<Moods :moods="moods"/>
+			<Moods :moods="[]"/>
 		</scroll-view>
 		<!-- the fixed button on the sceen right -->
 		<FixedButton 

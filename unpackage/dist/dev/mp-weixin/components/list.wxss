@@ -52,18 +52,17 @@ text.data-v-5ed3214e {
 	font-size: 12px;
 	margin-left: 10px;
 }
-.moods .none-mood.data-v-5ed3214e {
-	position: absolute;
-	left: 50%;
-	top: 20%;
+.moods .nothing.data-v-5ed3214e {
 	text-align: center;
+	padding-top: 20%;
 }
 .moods .nothing .nothing-bg.data-v-5ed3214e {
 	display: inline-block;
-	width: 50%;
+	width: 200px;
+	height: 200px;
 	margin-bottom: 20px;
 }
-.moods .none-mood .nothing-hint.data-v-5ed3214e {
+.moods .nothing .nothing-hint.data-v-5ed3214e {
 	color: #999999;
 	font-size: 14px;
 }
