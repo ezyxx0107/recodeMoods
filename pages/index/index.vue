@@ -5,7 +5,7 @@
 			:scroll-y="true"
 			:enable-back-to-top="true"
 			class="content">
-			<Moods :moods="[]"/>
+			<Moods :moods="moods"/>
 		</scroll-view>
 		<!-- the fixed button on the sceen right -->
 		<FixedButton 
@@ -93,6 +93,7 @@
 			},
 			addMoodFn(form) {
 				this.whetherDisplayModel = undefined
+				// update moods
 				this.moods.unshift(form)
 			},
 			showCalender() {

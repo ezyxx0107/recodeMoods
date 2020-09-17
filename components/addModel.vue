@@ -94,7 +94,7 @@
 			addMoodFn() {
 				const month = (new Date()).getMonth()+1
 				const day = (new Date()).getDate()
-				this.$emit('addMoodFn', Object.assign({},this.form,{ month, day }))
+				this.$emit('addMoodFn', Object.assign({},this.form, { month, day }))
 				this.close()
 			},
 			close() {
@@ -103,6 +103,7 @@
 					tags: [],
 					mood: ''
 				}
+				this.tagInputValue = ''
 				this.visiableAddModel = false
 			}
 		},
